@@ -1,0 +1,21 @@
+class Solution {
+    public int missingNumber(int[] nums) {
+     
+     int l=nums.length;
+     // array sum
+     int sum=0;
+     for(int i=0;i<nums.length;i++)
+     {
+        sum=sum+nums[i];
+     }
+
+     // sum of numbers from 0 to greatest
+     int sum_number=0;
+     for(int i=0;i<=l;i++)
+     {
+        sum_number=sum_number+i;
+
+     }
+     return (sum_number - sum);
+    }
+}
