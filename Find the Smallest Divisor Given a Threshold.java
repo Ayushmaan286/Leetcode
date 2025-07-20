@@ -12,6 +12,15 @@ Example 2:
 Input: nums = [44,22,33,11,1], threshold = 5
 Output: 44 */
 
+
+/*APROACH-(BRUTE FORCE) PHLE ARRAY KA MAXIMUM NUMBER DHUNDO FIR EK LOOP CHALAO 1 SE LEKE MAX TAK AND ARRAY KE NUMBERS KO DIVIDE KRO i KI VALUE SE AND SIMULTANEOUSLY SUM CALCULATE BI KRO FIR CHECK KRO YE SUM THRESHOLD KE BRABR HAI KI NHI  
+ * 
+ * [PROBLEM]- TIME LIMIT EXCEEDED
+ * 
+ * (OPTIMIZED)- MAXIMUM CALCULATE KRO AND AND BINARY SEARCH LGAO LEFT=0 OR RIGHT= MAX ASSIGN KRO OR FIR MID VALUE KO AS A DIVIDSOR CHOOSE KRO IF USKA SUM THRESHOLD KE BARABR ATA HAI TO RIGHTKO MID-1 KRDO AND OR CHOTA DIVISOR DHUNDO ELSE LEFT KO MID+1 KRDO 
+*/
+
+
 import java.lang.*;
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
@@ -42,7 +51,7 @@ class Solution {
             }
 
             if(sum<=threshold)
-            {
+            {//now check if there is any divisor less than that of mid
                 right=mid-1;
                 answer=mid;
             }
