@@ -21,11 +21,11 @@ Output: 44 */
 */
 
 
-import java.lang.*;
+
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
         int l=nums.length;
-        int div=nums[0];
+       
         int sum=0;
         // calculate maximum element in array 
         int max=nums[0];
