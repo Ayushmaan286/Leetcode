@@ -25,10 +25,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 //      to counter variable ko increase krdo or i ko bhi increase krdo
 //      or i or j index waale number ko swap krdo jisse saare unique elements ek trf aage 
 //      aa jaenge 
-//
-//
-//
-//
+
 
 
 class Solution {
