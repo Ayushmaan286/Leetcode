@@ -2,7 +2,7 @@ I am currently solving striver A2z sheet and the problems i am doing on leetcode
 the link for A2z sheet is https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 I have seggregated in a folder format
 
-leetcode/
+'''leetcode/
 │
 ├──Array/
 ├──Binary_Search/
@@ -10,7 +10,7 @@ leetcode/
 ├──
 ├──
 ├──
-└──
+└──'''
 
 
 
