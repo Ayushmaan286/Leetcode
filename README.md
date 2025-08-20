@@ -5,9 +5,12 @@ I have seggregated in a folder format
 ```leetcode/
 │
 ├──Array/
+│   ├──Subarray/
+│   └──
+│ 
 ├──Binary_Search/
 ├──Strings/
-├──
+├──Basics/
 ├──
 ├──
 └──```
