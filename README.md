@@ -3,9 +3,14 @@ the link for A2z sheet is https://takeuforward.org/strivers-a2z-dsa-course/striv
 I have seggregated in a folder format
 
 leetcode/
-|--Array/
-|--Binary_Search/
-|--Strings/
-|
-|
-|
+│
+├──Array/
+├──Binary_Search/
+├──Strings/
+├──
+├──
+├──
+└──
+
+
+
