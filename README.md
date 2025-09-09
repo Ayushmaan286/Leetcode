@@ -7,12 +7,11 @@ This is the link to my leetcode account https://leetcode.com/u/ayushmaansingh286
 │
 ├──Array/
 │   ├──Subarray/
-│   └──
-│ 
+│   └──2d_Array/
 ├──Binary_Search/
 ├──Strings/
 ├──Basics/
-├──
+├──Bit_Manipulation/
 ├──
 └──```
 
